@@ -1,0 +1,4 @@
+id,shop_domain,application_id,autocomplete_enabled,user_created_at_least_one_qr,nbr_merchandised_queries,nbrs_pinned_items,showing_logo,has_changed_sort_orders,analytics_enabled,use_metafields,nbr_metafields,use_default_colors,show_products,instant_search_enabled,instant_search_enabled_on_collection,only_using_faceting_on_collection,use_merchandising_for_collection,index_prefix,indexing_paused,install_channel,export_date
+i0,domain0.com,DHOTN807YZ,True,False,0,[0],True,False,False,False,3,True,False,False,False,False,False,shopify_,False,marketplace,2019-04-05
+i1,domain1.com,,True,False,0,[0],True,False,False,False,3,True,False,False,False,False,False,shopify_similar_,False,marketplace,2019-04-05
+i2,domain2.com,D6WMGCDWN5,True,False,0,[0],True,False,False,False,7,True,False,False,False,False,False,,False,marketplace,2019-04-05
