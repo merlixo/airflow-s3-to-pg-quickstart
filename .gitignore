@@ -1,6 +1,7 @@
 .env
 .c9
 .pytest_cache
+**/__pycache__
 
-__pycache__
+airflow
 logs

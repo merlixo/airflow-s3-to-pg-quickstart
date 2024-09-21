@@ -10,6 +10,11 @@ CSV_PATH = os.path.join(os.path.dirname(__file__), "fixtures/test.csv")
 
 class TestLoadShopifyConfigs(unittest.TestCase):
     def test_transform_data(self):
+        """ Test the transformation logic. 
+        
+        We check that records with undefined application_id are dropped 
+        and the index_prefix column is correctly populated
+        """
 
         input_df = pd.DataFrame({
             'id': [1, 2, 3, 4, 5],
@@ -30,6 +35,10 @@ class TestLoadShopifyConfigs(unittest.TestCase):
         
     
     def test_load_csv(self):
+        """ Test the loading of the CSV file as pandas dataframe.
+        
+        We test that all columns and rows are loaded, and that empty values are correctly handled.
+        """
 
         df = pd.read_csv(CSV_PATH)
         
